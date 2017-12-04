@@ -20,13 +20,13 @@
   Apart from the mean quality of surrounding restaurants, certain other factors can affect the quality of the restaurants and so need to be controlled. Neighborhoods (&#947;) and Hours of service (&#963;) are both controls in this study.
   
 
-For the first case, the linear equation is defined to examine the relationship between restaurant quality and the mean surrounding restaurant quality :
+For the first case, the linear equation is defined to examine the relationship between restaurant quality and the mean surrounding restaurant quality.
   
-   Qir =  &#945; + &#956;&#946;Qir + &#947; + &#963;          where  i &#1013; (0, 13456)                            (1)
+   Qir =  &#945; + &#956;&#946;Qir + &#947; + &#963;          where  i &#1013; (0, 13456)                           
 
-Similarly, for the second case, the equation is also used to see the relationship between restaurant quality and mean quality of surrounding non-restaurant businesses ().
+Similarly, for the second case, the equation is also used to see the relationship between restaurant quality and mean quality of surrounding non-restaurant businesses.
 
-  Qir =  &#945; + &#956;&#946;Qib + &#947; + &#963;           where  i &#1013; (0, 13456)                             (2)
+  Qir =  &#945; + &#956;&#946;Qib + &#947; + &#963;           where  i &#1013; (0, 13456)                            
 
  
 ## Results
@@ -34,20 +34,20 @@ Similarly, for the second case, the equation is also used to see the relationshi
   ![Table 2](https://github.com/shrutirao94/Yelp-Data-Analysis-for-Urban-Density/blob/master/Table%202.png)
   ![Table 3](https://github.com/shrutirao94/Yelp-Data-Analysis-for-Urban-Density/blob/master/Table%203.png)
 
-Ordinary Least Squares (OLS) is used to understand the extent to which restaurant ratings depend on the mean ratings of surrounding restaurants. In the first case, Table 4 shows a standard error of 0.09. This indicates that the accuracy with which the sample represents the population is very high. A 0.79 regression coefficient means that an increase in the rating of a restaurant by 1 increases the mean surrounding rating of restaurants by 0.79. Finally, to see the relationship between ratings of restaurants (Y) and the mean rating of surrounding restaurants (X), a “Y and Fitted vs. X” graph is used, as seen in Figure 1. The direct relationship in the graph along with the correlation coefficient of 0.3 tells that restaurant rating and mean rating of surrounding restaurants are positively associated. 
+  Ordinary Least Squares (OLS) is used to understand the extent to which restaurant ratings depend on the mean ratings of surrounding restaurants. In the first case, Table 4 shows a standard error of 0.09. This indicates that the accuracy with which the sample represents the population is very high. A 0.79 regression coefficient means that an increase in the rating of a restaurant by 1 increases the mean surrounding rating of restaurants by 0.79. Finally, to see the relationship between ratings of restaurants (Y) and the mean rating of surrounding restaurants (X), a “Y and Fitted vs. X” graph is used, as seen in Figure 1. The direct relationship in the graph along with the correlation coefficient of 0.3 tells that restaurant rating and mean rating of surrounding restaurants are positively associated. 
   
   ![Figure 1](https://github.com/shrutirao94/Yelp-Data-Analysis-for-Urban-Density/blob/master/Figure%201.png)
   
-For the second case, OLS in Table 4 is used to examining the relationship between restaurant ratings and mean rating of surrounding non-restaurant businesses. The regression coefficient shows that an increase in the rating of the restaurant by 1 increases the mean surrounding rating of non-restaurant businesses by 0.79 as well. A “Y and Fitted vs. X” graph in Figure 2 also indicates a direct, linear relationship between restaurant rating (Y) and mean rating of surrounding non-restaurant businesses (X). But the very low positive correlation of 0.07 indicates that this positive relationship is weak. 
+  For the second case, OLS in Table 4 is used to examining the relationship between restaurant ratings and mean rating of surrounding non-restaurant businesses. The regression coefficient shows that an increase in the rating of the restaurant by 1 increases the mean surrounding rating of non-restaurant businesses by 0.79 as well. A “Y and Fitted vs. X” graph in Figure 2 also indicates a direct, linear relationship between restaurant rating (Y) and mean rating of surrounding non-restaurant businesses (X). But the very low positive correlation of 0.07 indicates that this positive relationship is weak. 
 
 ![Figure 2](https://github.com/shrutirao94/Yelp-Data-Analysis-for-Urban-Density/blob/master/Figure%202.png)
 
-Once the relationship between restaurant quality and co-location is determined, this study examines if quality of the restaurants is affected by the number of restaurants they co-locate with. Specifically, the study examines if competition affects restaurants quality. Here, competition is considered to be the number of restaurants or non-restaurant businesses. The regression line in both Figure 3 and Figure 4 shows that there is no significant relationship between restaurant quality and the number of surrounding restaurants and non-restaurant businesses. So, competition does not seem to be a factor that restaurants consider when choosing a location. 
+  Once the relationship between restaurant quality and co-location is determined, this study examines if quality of the restaurants is affected by the number of restaurants they co-locate with. Specifically, the study examines if competition affects restaurants quality. Here, competition is considered to be the number of restaurants or non-restaurant businesses. The regression line in both Figure 3 and Figure 4 shows that there is no significant relationship between restaurant quality and the number of surrounding restaurants and non-restaurant businesses. So, competition does not seem to be a factor that restaurants consider when choosing a location. 
 
 ![Figure 3](https://github.com/shrutirao94/Yelp-Data-Analysis-for-Urban-Density/blob/master/Figure%203.png)
 ![Figure 4](https://github.com/shrutirao94/Yelp-Data-Analysis-for-Urban-Density/blob/master/Figure%204.png)
 
-Restaurants are also separated into good and poor-quality restaurants to see if the type of the restaurant quality determines if they choose to co-locate with a lot of other restaurants. Good-quality restaurants are defined by a rating of 3.5 and higher while poor-quality restaurants are defined by a rating of 2.5 and lower. Figure 5 shows the negative relationship between good-quality restaurants and number of surrounding restaurants. So, good-quality restaurants do not seem to locate themselves near a lot of restaurants.
+  Restaurants are also separated into good and poor-quality restaurants to see if the type of the restaurant quality determines if they choose to co-locate with a lot of other restaurants. Good-quality restaurants are defined by a rating of 3.5 and higher while poor-quality restaurants are defined by a rating of 2.5 and lower. Figure 5 shows the negative relationship between good-quality restaurants and number of surrounding restaurants. So, good-quality restaurants do not seem to locate themselves near a lot of restaurants.
 
 
 ![Figure 5](https://github.com/shrutirao94/Yelp-Data-Analysis-for-Urban-Density/blob/master/Figure%205.png)
